@@ -623,7 +623,7 @@ const Feature: React.FC<FeatureProps> = ({
       className="p"
       marginTop="0"
       marginBottom="1.5rem"
-      color={useColorModeValue("red", "gray.400")}
+      color={useColorModeValue("gray.400", "gray.400")}
       // textAlign={"justify"}
     >
       {description}
